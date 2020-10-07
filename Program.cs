@@ -20,7 +20,7 @@ namespace Lab1
         static void Main(string[] args)
         {
             // Dòng này dùng nếu muốn ghi ra console tiếng việt nhe
-            //Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
 
             // Vì tất cả các phương thức cần xử lí đều thông qua class PRO_manager nên cần tạo đối tượng trước, và gọi hàm menu để bắt đầu
             PRO_Manager manager = new PRO_Manager();
